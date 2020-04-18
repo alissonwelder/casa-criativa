@@ -17,15 +17,15 @@ db.serialize(function(){
     `)
 
     // //INSERIR DADOS NA TABELA
-    // // const query = `
-    // //     INSERT INTO ideas(
-    // //         image,
-    // //         title,
-    // //         category,
-    // //         description,C
-    // //         link
-    // //     ) VALUES (?, ?, ?, ?, ?);
-    // // `
+    // const query = `
+    //     INSERT INTO ideas(
+    //         image,
+    //         title,
+    //         category,
+    //         description,
+    //         link
+    //     ) VALUES (?, ?, ?, ?, ?);
+    // `
     // const values = [
     //     "https://image.flaticon.com/icons/svg/2813/2813245.svg",
     //     "Cursos de programação",

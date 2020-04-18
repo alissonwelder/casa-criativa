@@ -17,21 +17,20 @@ function onOff()
 }
 
 function checkFields(event){
+
     const valuesToCheck = [
         "title",
-        "ctegory",
+        "category",
         "image",
         "description",
-        "link",
-
+        "link"
     ]
 
     const isEmpty = valuesToCheck.find(function(value){
-
         const checkIfIsString = typeof event.target[value].value === "string"
         const checkIfIsEmpty = !event.target[value].value.trim()
 
-        if(checkIfIsString && checkIfIsEmpty){
+        if (checkIfIsString && checkIfIsEmpty){
             return true
         }
     })
@@ -39,7 +38,5 @@ function checkFields(event){
     if(isEmpty){
         event.preventDefault()
         alert("Por favor, preencha todos os campos")
-
     }
 }
-
